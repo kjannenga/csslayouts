@@ -6,7 +6,7 @@ a{
 color:black;
 }
 body {
-    font-family:sans-serif;
+    font-family:"veranda", sans-serif;
 
 }
 .octodex{
@@ -18,10 +18,7 @@ body {
 
 }
 
-.octocat{
-   
 
-}
 .octocat >a >img{
     height:300px;
     width:300px;
@@ -37,20 +34,23 @@ body {
 .image-caption {
     color:lightgrey;
    display:flex;
+
 }
 
 .image-footer{
     text-align:right;
     display:flex;
-
+    border-bottom:lightgrey 1px solid;
     justify-content:space-around;
 }
 
 .image-footer img{
     height:20px;
     width:20px;
+    border:1px solid lightgrey;
     border-radius: 4px;
     margin:0;
+
 
 }
 .image-number{
@@ -65,9 +65,14 @@ body {
 
 .image-caption {
     text-align:right;
+    
 
    
 
+}
+.author{
+    text-align:right;
+    
 }
 
 
