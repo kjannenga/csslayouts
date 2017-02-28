@@ -1,0 +1,72 @@
+
+ul {
+    list-style: none;
+}
+a{
+color:black;
+}
+body {
+    font-family:sans-serif;
+}
+.octodex{
+    display:flex;
+    flex-direction:row;
+    
+    justify-content: center;
+    
+
+}
+
+.octocat{
+   
+
+}
+.octocat img{
+    height:300px;
+    width:300px;
+    border:1px solid lightgrey;
+    border-radius: 25px;
+    margin-top:20px;
+    margin-left:10px;
+    margin-right:10px;
+
+
+}
+
+.image-caption {
+    color:lightgrey;
+   display:flex;
+}
+
+.image-footer{
+    text-align:right;
+    display:flex;
+
+    justify-content:space-between;
+}
+
+.image-footer img{
+    height:20px;
+    width:20px;
+    border-radius: 4px;
+    margin:0;
+
+}
+.image-number{
+    float:left;
+    color:lightgrey;
+    font-weight: bold;
+}
+.image-number:before {
+    content:"#";
+}
+
+
+.image-caption {
+    text-align:right;
+   
+
+}
+
+
+
