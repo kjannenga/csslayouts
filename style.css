@@ -8,11 +8,12 @@ color:black;
 body {
     font-family:"veranda", sans-serif;
 
+
 }
 .octodex{
     display:flex;
     flex-direction:row;
-    
+    flex-wrap:wrap;
     justify-content: center;
     
 
