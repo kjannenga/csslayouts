@@ -19,6 +19,10 @@ body {
 
 }
 
+.octocat{
+    display:block;
+    position:relative;
+}
 
 .octocat >a >img{
     height:300px;
@@ -28,6 +32,7 @@ body {
     margin-top:20px;
     margin-left:15px;
     margin-right:15px;
+
 
 
 }
@@ -43,14 +48,16 @@ body {
     display:flex;
     border-bottom:lightgrey 1px solid;
     justify-content:space-around;
+    margin-top:5px
 }
 
-.image-footer img{
+.image-footer a img{
     height:20px;
     width:20px;
     border:1px solid lightgrey;
     border-radius: 4px;
-    margin:0;
+    margin-left:0px;
+    padding:0px;
 
 
 }
@@ -66,15 +73,36 @@ body {
 
 .image-caption {
     text-align:right;
+
+
     
 
    
 
 }
-.author{
+
+.image-caption span{
+    margin-left:5px;
+    margin-right:5px;
+}
+.authors{
     text-align:right;
+    padding-left:0px;
     
 }
-
+.octocat:after {
+ content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: lightgrey transparent transparent transparent;
+    float: right;
+    margin-right: 20px;
+    top: 322px;
+    right: 17px;
+    text-align:right;
+    position:absolute; }
 
 
